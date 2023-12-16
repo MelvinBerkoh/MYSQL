@@ -25,4 +25,4 @@ WHERE last_name REGEXP '^MY|SE';
 SELECT first_name,
   last_name
 FROM customers
-WHERE last_name REGEXP 'B[R|U]';
+WHERE last_name REGEXP 'B[RU]';
