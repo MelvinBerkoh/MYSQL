@@ -1,3 +1,4 @@
+/* intial creation of data base this is not my code teacher just gave this to us and was used for class examples to go over quires file that was added*/
 DROP DATABASE IF EXISTS `quantum_tutors`;
 CREATE DATABASE `quantum_tutors`;
 USE `quantum_tutors`;
