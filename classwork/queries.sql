@@ -1,4 +1,5 @@
--- to insert somthing in to colums
+/* this goes over adding and removing records from a database also some complex query that can be written*/
+-- to insert something in to columns
 USE quantum_tutors;
 INSERT INTO customers (
     first_name,
@@ -50,9 +51,9 @@ UPDATE coursesz
 SET price = price *.9,
   description = CONCAT(description, 'UPDATE!')
 WHERE course_id = 3;
-/* Top perofrming Instructor: QuantumTutors wants to recognize and reward top-performing Instructors.. AN instructor is considered 
- top-performing if all of their courses have recieved an average rating of 4 or more. Write a query to fetch the details of top-performing
- intructors*/
+/* Top performing Instructor: QuantumTutors wants to recognize and reward top-performing Instructors.. AN instructor is considered 
+ top-performing if all of their courses have received an average rating of 4 or more. Write a query to fetch the details of top-performing
+ instructors*/
 SELECT i.first_name,
   i.last_name
 FROM instructors i
