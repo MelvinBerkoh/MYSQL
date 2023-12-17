@@ -1,3 +1,4 @@
+/* going to added table 2 and 1 into on database example for a company structure professor provided the documentation for how that database should look like*/
 create table WORKS_ON(
   Essn CHAR(9) NOT NULL,
   Pno INT NOT NULL,
