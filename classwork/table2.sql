@@ -1,3 +1,4 @@
+/* creating a database that has a list of employees their departments and also there dept location*/
 CREATE TABLE Employee(
   Fname VARCHAR(15) NOT NULL,
   Minit CHAR,
