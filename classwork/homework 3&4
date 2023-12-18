@@ -1,4 +1,4 @@
--- classwork-- 
+-- classwork and homework using tables created from table 1 and 2-- 
 -- Generate a report that shows the name and total order amount 
 -- for each product sold.
 SELECT P.ProductName,
